@@ -20,10 +20,7 @@ This project performs Sentiment Analysis on Movie Reviews using Deep Learning wi
 - Uses **TensorFlow + Keras Sequential Neural Network**
 - Trained on an **IMDB-style** dataset
 - Hosted using **Gradio** on Hugging Face
-- Text preprocessing includes:
-  - Lowercasing
-  - Punctuation removal
-  - Tokenization and padding
+
 - Clean, interactive web interface
 
 ---
@@ -51,7 +48,14 @@ Movie_Review_Sentiment_Analysis/
 - **Metric:** Accuracy  
 
 ---
+## 🛠️ Technologies Used
 
+- **NumPy**  
+- **Pandas**  
+- **TensorFlow**  
+- **Keras**  
+- **Jupyter Notebook**
+---
 ## 📊 Dataset Overview
 
 - **Source:** IMDB-style movie reviews dataset (custom/open-source)
