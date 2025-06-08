@@ -1,6 +1,6 @@
 # 🎬 Movie Review Sentiment Analysis
 
-This project classifies movie reviews as **Positive 😊** or **Negative 😞** using a **Neural Network** built with **TensorFlow** and **Keras**. It includes natural language processing techniques and is deployed using **Gradio** for live demo interaction.
+This project performs Sentiment Analysis on Movie Reviews using Deep Learning with a Neural Network built in TensorFlow. It classifies text reviews as **Positive 😊** or **Negative 😞** by learning from labeled data.
 
 ![Made with Python](https://img.shields.io/badge/Made%20with-Python-blue)
 ![Deep Learning](https://img.shields.io/badge/Deep%20Learning-TensorFlow-yellow)
