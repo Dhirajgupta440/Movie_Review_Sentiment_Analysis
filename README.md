@@ -39,15 +39,6 @@ Movie_Review_Sentiment_Analysis/
 
 ---
 
-## 🧠 Model Details
-
-- **Model Type:** Sequential Neural Network  
-- **Layers:** Dense layers with ReLU and Sigmoid  
-- **Loss Function:** Binary Crossentropy  
-- **Optimizer:** Adam  
-- **Metric:** Accuracy  
-
----
 ## 🛠️ Technologies Used
 
 - **NumPy**  
