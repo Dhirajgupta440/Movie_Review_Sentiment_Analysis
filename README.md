@@ -1,15 +1,14 @@
 🎬 Movie Review Sentiment Analysis
 This project performs Sentiment Analysis on movie reviews using a Neural Network built with TensorFlow and Keras. It classifies reviews as Positive 😊 or Negative 😞 based on their textual content.
 
-
-
-
-🔗 Live Demo: Try the Model on Gradio
+🔗 Live Demo:
+Try the Model on Gradio
 
 📌 Features
+
 Classifies movie reviews as Positive or Negative
 
-Built using TensorFlow, Keras
+Built using TensorFlow, Keras, and NLP preprocessing
 
 Tokenizes and pads input text data for neural network compatibility
 
@@ -20,6 +19,7 @@ Clean, interactive Gradio web interface
 Deployed for real-time testing and demonstration
 
 🧠 Tech Stack
+
 Programming Language: Python
 
 Frameworks & Libraries:
@@ -35,6 +35,7 @@ scikit-learn
 Gradio
 
 📁 Project Structure
+
 bash
 Copy
 Edit
@@ -43,6 +44,7 @@ Movie_Review_Sentiment_Analysis/
 ├── requirements.txt                       # Project dependencies
 └── README.md                              # Project documentation
 🧪 Model Details
+
 Model Type: Sequential Neural Network
 
 Layers: Dense layers with ReLU and Sigmoid activations
@@ -54,6 +56,7 @@ Optimizer: Adam
 Evaluation Metrics: Accuracy
 
 📊 Dataset Overview
+
 Source: IMDB-style movie reviews (custom or open datasets)
 
 Text Preprocessing:
@@ -67,6 +70,7 @@ Tokenization
 Padding sequences for uniform input
 
 💡 Future Improvements
+
 🔁 Integrate LSTM or Bidirectional LSTM for better context understanding
 
 🧾 Train on a larger, more diverse dataset
@@ -81,11 +85,8 @@ Padding sequences for uniform input
 
 👨‍💻 Author
 Dhiraj Kumar
-
-📧 dhiraj.300012723016@csvtu.ac.in
-
+📧 dhirajguptaofficial@gmail.com
 🔗 GitHub Profile
 
 📄 License
 This project is licensed under the MIT License – see the LICENSE file for details.
-
