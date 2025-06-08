@@ -1,67 +1,91 @@
 🎬 Movie Review Sentiment Analysis
-This project performs Sentiment Analysis on movie reviews using a Neural Network built with Deep Learning techniques via TensorFlow. It classifies movie reviews as Positive or Negative based on their textual content.
+This project performs Sentiment Analysis on movie reviews using a Neural Network built with TensorFlow and Keras. It classifies reviews as Positive 😊 or Negative 😞 based on their textual content.
 
-🚀 Live Demo
-👉 Try the model here: https://6f551d04667e273e96.gradio.live
-Paste any movie review and get instant sentiment prediction!
+
+
+
+🔗 Live Demo: Try the Model on Gradio
 
 📌 Features
-✅ Classifies movie reviews as Positive or Negative
+Classifies movie reviews as Positive or Negative
 
-✅ Built using TensorFlow, Keras
+Built using TensorFlow, Keras
 
-✅ Tokenizes and pads input text data
+Tokenizes and pads input text data for neural network compatibility
 
-✅ Trained on IMDB-like datasets
+Trained on an IMDB-like dataset of movie reviews
 
-✅ Clean and interactive Gradio web interface
+Clean, interactive Gradio web interface
 
-✅ Deployable in real-time for testing and demonstration
+Deployed for real-time testing and demonstration
 
 🧠 Tech Stack
 Programming Language: Python
 
-Deep Learning Framework: TensorFlow (Keras)
+Frameworks & Libraries:
 
-Libraries Used:
-
-TensorFlow
+TensorFlow / Keras
 
 NumPy
 
 Pandas
 
-Gradio
-
 scikit-learn
 
-Deployment: Gradio Live
+Gradio
 
-📂 Project Structure
+📁 Project Structure
 bash
 Copy
 Edit
+Movie_Review_Sentiment_Analysis/
 ├── movie_review_sentiment_analysis.ipynb  # Main Jupyter Notebook
-├── requirements.txt                       # Python dependencies
-├── README.md                              # Project documentation
-🔮 Future Improvements
-🔁 Add LSTM or Bidirectional LSTM for better sequence learning
+├── requirements.txt                       # Project dependencies
+└── README.md                              # Project documentation
+🧪 Model Details
+Model Type: Sequential Neural Network
 
-🧾 Train on a larger, more diverse review dataset
+Layers: Dense layers with ReLU and Sigmoid activations
 
-📊 Add confidence score or probability with prediction
+Loss Function: Binary Crossentropy
 
-🌍 Add multilingual sentiment analysis support
+Optimizer: Adam
 
-📱 Deploy as a mobile/web app with API integration
+Evaluation Metrics: Accuracy
 
-🧪 Integrate explainability (e.g., SHAP/LIME) to interpret predictions
+📊 Dataset Overview
+Source: IMDB-style movie reviews (custom or open datasets)
+
+Text Preprocessing:
+
+Lowercasing
+
+Removing punctuation
+
+Tokenization
+
+Padding sequences for uniform input
+
+💡 Future Improvements
+🔁 Integrate LSTM or Bidirectional LSTM for better context understanding
+
+🧾 Train on a larger, more diverse dataset
+
+📊 Show confidence scores with predictions
+
+🌍 Add multilingual support for non-English reviews
+
+📱 Deploy as a mobile or full-stack web app with REST API
+
+🧪 Integrate explainability tools like SHAP or LIME for transparency
 
 👨‍💻 Author
 Dhiraj Kumar
+
 📧 dhiraj.300012723016@csvtu.ac.in
+
 🔗 GitHub Profile
 
-📜 License
+📄 License
 This project is licensed under the MIT License – see the LICENSE file for details.
 
