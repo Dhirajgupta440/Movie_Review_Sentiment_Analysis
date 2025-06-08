@@ -31,9 +31,12 @@ This project classifies movie reviews as **Positive 😊** or **Negative 😞** 
 ## 📁 Project Structure
 
 Movie_Review_Sentiment_Analysis/
-├── movie_review_sentiment_analysis.ipynb # Jupyter Notebook (model training & testing)
-├── model_testing.ipynb # Required libraries
-└── README.md # Project documentation
+├── movie_review_sentiment_analysis.ipynb  # Jupyter Notebook for model training & testing
+├── model_testing.ipynb                     # Jupyter Notebook for testing the trained model
+├── model.h5                               # Trained Keras model file
+├── tokenizer.pkl                         # Tokenizer object for text preprocessing
+└── README.md                             # Project documentation
+
 
 
 
