@@ -1,77 +1,83 @@
-🎬 Movie Review Sentiment Analysis
-This project classifies movie reviews as Positive 😊 or Negative 😞 using a Neural Network built with TensorFlow and Keras. It applies Natural Language Processing (NLP) techniques to preprocess text and delivers predictions via an interactive Gradio web app.
+# 🎬 Movie Review Sentiment Analysis
 
+This project classifies movie reviews as **Positive 😊** or **Negative 😞** using a **Neural Network** built with **TensorFlow** and **Keras**. It includes natural language processing techniques and is deployed using **Gradio** for live demo interaction.
 
+![Made with Python](https://img.shields.io/badge/Made%20with-Python-blue)
+![Deep Learning](https://img.shields.io/badge/Deep%20Learning-TensorFlow-yellow)
+![Deployed](https://img.shields.io/badge/Deployed-Gradio-orange)
+![License: MIT](https://img.shields.io/badge/License-MIT-green)
 
+---
 
+### 🔗 Live Demo
+👉 [Try the Model on Gradio](https://6f551d04667e273e96.gradio.live)
 
-🔗 Live Demo
-👉 Try the Model on Gradio
+---
 
-✨ Features
-Predicts sentiment polarity: Positive 😊 or Negative 😞
+## ✨ Features
 
-Built with TensorFlow and Keras Sequential Neural Network
+- Predicts sentiment of movie reviews: **Positive 😊** or **Negative 😞**
+- Uses **TensorFlow + Keras Sequential Neural Network**
+- Trained on an **IMDB-style** dataset
+- Hosted using **Gradio** on Hugging Face
+- Text preprocessing includes:
+  - Lowercasing
+  - Punctuation removal
+  - Tokenization and padding
+- Clean, interactive web interface
 
-Trained on IMDB-style movie reviews dataset
+---
 
-Hosted using Gradio on Hugging Face
+## 📁 Project Structure
 
-Clean and interactive web interface for live testing
-
-Text preprocessing includes:
-
-Lowercasing
-
-Removing punctuation
-
-Tokenization and padding
-
-📁 Project Structure
-bash
-Copy
-Edit
 Movie_Review_Sentiment_Analysis/
-├── movie_review_sentiment_analysis.ipynb   # Main notebook with model training & testing
-├── requirements.txt                        # Project dependencies
-└── README.md                               # Project documentation
-🧠 Model Details
-Model Type: Sequential Neural Network
+├── movie_review_sentiment_analysis.ipynb # Jupyter Notebook (model training & testing)
+├── model_testing.ipynb # Required libraries
+└── README.md # Project documentation
 
-Layers: Dense layers with ReLU and Sigmoid activations
 
-Loss Function: Binary Crossentropy
 
-Optimizer: Adam
+---
 
-Evaluation Metric: Accuracy
+## 🧠 Model Details
 
-📊 Dataset Overview
-Source: Custom or open IMDB-style movie reviews dataset
+- **Model Type:** Sequential Neural Network  
+- **Layers:** Dense layers with ReLU and Sigmoid  
+- **Loss Function:** Binary Crossentropy  
+- **Optimizer:** Adam  
+- **Metric:** Accuracy  
 
-Preprocessing Techniques:
+---
 
-Text lowercasing
+## 📊 Dataset Overview
 
-Punctuation removal
+- **Source:** IMDB-style movie reviews dataset (custom/open-source)
+- **Text Preprocessing Includes:**
+  - Lowercasing
+  - Removing punctuation
+  - Tokenization
+  - Padding sequences for uniform shape
 
-Tokenization and padding for uniform input
+---
 
-🚀 Future Improvements
-🔁 Use LSTM or Bidirectional LSTM for better sequence learning
+## 💡 Future Improvements
 
-📈 Display confidence scores with each prediction
+- 🔁 Integrate **LSTM** / **Bidirectional LSTM** for better sequence modeling
+- 🧠 Add **confidence scores** in output
+- 🌍 Introduce **multilingual support**
+- 📱 Build a **mobile app** or **full-stack web app** with REST API
+- 🧪 Use **explainability tools** like SHAP or LIME for interpretability
 
-🌍 Add multilingual support for broader language coverage
+---
 
-📱 Build and deploy a mobile or full-stack web app
+## 👨‍💻 Author
 
-🧪 Add explainability using SHAP or LIME
+**Dhiraj Kumar**  
+📧 dhiraj.300012723016@csvtu.ac.in  
+🔗 [GitHub Profile](https://github.com/Dhirajgupta440)
 
-👨‍💻 Author
-Dhiraj Kumar
-📧 dhirajguptaofficial@gmail.com
-🔗 GitHub Profile
+---
 
-📄 License
-This project is licensed under the MIT License – see the LICENSE file for details.
+## 📄 License
+
+This project is licensed under the **MIT License** – see the `LICENSE` file for details.
