@@ -17,7 +17,7 @@ This project performs Sentiment Analysis on Movie Reviews using Deep Learning wi
 ## ✨ Features
 
 - Predicts sentiment of movie reviews: **Positive 😊** or **Negative 😞**
-- Uses **TensorFlow + Keras Sequential Neural Network**
+- Uses **TensorFlow + Keras,Neural Network**
 - Trained on an **IMDB-style** dataset
 - Hosted using **Gradio** on Hugging Face
 
