@@ -43,6 +43,7 @@ Movie_Review_Sentiment_Analysis/
 
 ## 🛠️ Technologies Used
 
+- **Python**
 - **NumPy**  
 - **Pandas**  
 - **TensorFlow**  
@@ -74,6 +75,8 @@ Movie_Review_Sentiment_Analysis/
 **Dhiraj Kumar**  
 📧 dhiraj.300012723016@csvtu.ac.in  
 🔗 [GitHub Profile](https://github.com/Dhirajgupta440)
+🔗 [Linkedin Profile](https://www.linkedin.com/in/dhiraj-kumar-93a17a308/)
+
 
 ---
 
