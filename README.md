@@ -10,7 +10,7 @@ This project performs Sentiment Analysis on Movie Reviews using Deep Learning wi
 ---
 
 ### 🔗 Live Demo
-👉 [Try the Model on Gradio](https://6f551d04667e273e96.gradio.live)
+👉 [Try the Model on Hugging Face](https://huggingface.co/spaces/Dhirajgupta440/Sentiment_Analysis_Movie_Review)
 
 ---
 
